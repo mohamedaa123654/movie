@@ -47,10 +47,15 @@ The main packages used in the project:
 |---|---|
 |*main.dart*|The entry point to the application. Here is the initialization of DioHelper, CacheHelper and registration of common Blocs and Sizer that are used throughout the application.|
 |*bloc/*|Global Cubit and Bloc Observer.|
-|*data/*|Model classes used in the application, mapper and  data providers (local and remote) network(requests, responses).|
+|*constants/*|All constants in the application.|
+|*data/*|Model classes used in the application and data providers (local and remote) network(requests, responses).|
 |*presentation/*|All UI elements used in the application.|
 |---|---|
-|*presentation/resources/*|Contain all resources(Strings images padding).|
+|*presentation/router/*|Registration of all routes in application.|
+|*presentation/screens/*|Application screens and Cubit.|
+|*presentation/styles/*|Constants for UI such as colors, fonts, styles.|
+|*presentation/view/*|Special UI elements of application.|
+|*presentation/widgets/*|Common UI elements.|
 |---|---|
 
 
